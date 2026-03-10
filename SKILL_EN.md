@@ -22,11 +22,14 @@ SHEIN is a comprehensive CLI tool designed for interacting with the SHEIN fashio
 ## Installation
 
 ```bash
-# Install the ecommerce-core dependency first
-pip install -r ../ecommerce-core/requirements.txt
+# Install dependencies
+pip install -r requirements.txt
+
+# Install browser
+playwright install chromium
 
 # Install the SHEIN skill
-pip install -e .
+
 ```
 
 ## Usage
@@ -134,12 +137,12 @@ shein login
 
 | Data Type | Location |
 |-----------|----------|
-| Session Tokens | `~/.openclaw/data/ecommerce/auth.db` |
-| Search Cache | `~/.openclaw/data/ecommerce/ecommerce.db` |
+| Session Tokens | `~/.openclaw/data/shein/cookies.json` |
+| Search Cache | `~/.openclaw/data/shein/shein.db` |
 
 ### Dependencies
 
-- `ecommerce-core` framework (required)
+- `playwright>=1.40.0` - Browser automation
 - Browser automation with anti-detection capabilities
 - SQLite for data persistence
 

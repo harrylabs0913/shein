@@ -1,4 +1,4 @@
-# SHEIN (希音) Skill
+# SHEIN-EC (希音电商) Skill
 
 CLI tool for SHEIN fashion e-commerce platform.
 
@@ -6,27 +6,27 @@ CLI tool for SHEIN fashion e-commerce platform.
 
 ### Search Products
 ```bash
-shein search "dress"
-shein search "shoes" --page 2 --limit 20
+shein-ec search "dress"
+shein-ec search "shoes" --page 2 --limit 20
 ```
 
 ### Login
 ```bash
-shein login
+shein-ec login
 ```
 Opens browser with QR code for authentication.
 
 ### Price Tracking
 ```bash
-shein price <product-url>
+shein-ec price <product-url>
 ```
-Shows current price and historical price data.
+Shows current price and historical data.
 
 ### New Arrivals
 ```bash
-shein new
-shein new women
-shein new men
+shein-ec new
+shein-ec new women
+shein-ec new men
 ```
 Query new arrivals by category.
 
@@ -44,8 +44,8 @@ Query new arrivals by category.
 
 ## Data Storage
 
-- Sessions: `~/.openclaw/data/shein/cookies.json`
-- Cache: `~/.openclaw/data/shein/shein.db`
+- Sessions: `~/.openclaw/data/shein-ec/cookies.json`
+- Cache: `~/.openclaw/data/shein-ec/shein-ec.db`
 
 ## Security
 This skill uses browser automation for legitimate shopping assistance only.

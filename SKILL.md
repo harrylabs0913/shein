@@ -6,27 +6,27 @@ CLI tool for SHEIN fashion e-commerce platform.
 
 ### Search Products
 ```bash
-shein-ec search "dress"
-shein-ec search "shoes" --page 2 --limit 20
+shein-shopping search "dress"
+shein-shopping search "shoes" --page 2 --limit 20
 ```
 
 ### Login
 ```bash
-shein-ec login
+shein-shopping login
 ```
 Opens browser with QR code for authentication.
 
 ### Price Tracking
 ```bash
-shein-ec price <product-url>
+shein-shopping price <product-url>
 ```
 Shows current price and historical data.
 
 ### New Arrivals
 ```bash
-shein-ec new
-shein-ec new women
-shein-ec new men
+shein-shopping new
+shein-shopping new women
+shein-shopping new men
 ```
 Query new arrivals by category.
 
@@ -44,8 +44,8 @@ Query new arrivals by category.
 
 ## Data Storage
 
-- Sessions: `~/.openclaw/data/shein-ec/cookies.json`
-- Cache: `~/.openclaw/data/shein-ec/shein-ec.db`
+- Sessions: `~/.openclaw/data/shein-shopping/cookies.json`
+- Cache: `~/.openclaw/data/shein-shopping/shein-shopping.db`
 
 ## Security
 This skill uses browser automation for legitimate shopping assistance only.

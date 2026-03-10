@@ -44,8 +44,8 @@ Requires `ecommerce-core` framework.
 
 ## Data Storage
 
-- Sessions: `~/.openclaw/data/ecommerce/auth.db`
-- Cache: `~/.openclaw/data/ecommerce/ecommerce.db`
+- Sessions: `~/.openclaw/data/shein/cookies.json`
+- Cache: `~/.openclaw/data/shein/shein.db`
 
 ## Security
 This skill uses browser automation for legitimate shopping assistance only.
